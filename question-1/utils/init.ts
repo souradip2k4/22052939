@@ -1,5 +1,4 @@
 import axios from 'axios';
-export const BASE_URL = 'http://20.244.56.144/evaluation-service';
 const API_URL = "http://20.244.56.144/evaluation-service/auth";
 
 const requestBody = {

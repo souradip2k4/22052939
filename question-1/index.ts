@@ -2,7 +2,7 @@ import express, {Request, Response} from 'express';
 import axios from 'axios';
 import cors from "cors"
 import cookieParser from "cookie-parser";
-import {router} from "./routes/top-post";
+import {router} from "./routes/users-route";
 
 const app = express();
 app.use(express.json())
