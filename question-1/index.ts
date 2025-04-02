@@ -10,8 +10,7 @@ app.use(express.urlencoded({extended: true}))
 app.use(cookieParser())
 
 const PORT = 3000;
-const BASE_URL = 'http://20.244.56.144/evaluation-service';
-
+export const BASE_URL = 'http://20.244.56.144/evaluation-service';
 
 app.listen(PORT, () => {
   console.log(`Server running on http://localhost:${PORT}`);
